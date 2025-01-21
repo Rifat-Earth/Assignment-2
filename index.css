@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+.body{
+    margin: 20px;
+}
 .nav{
     height: 80px;
     width:100%;
@@ -10,8 +13,8 @@
     display: flex;
     text-align: center;
     justify-content: space-around;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     border:none;
     text-align: center;
 }
@@ -63,6 +66,7 @@ text-align: center;
 }
 .hr{
     display: none;
+    color: orange;
 }
 
 /* main section (students) */
@@ -127,7 +131,7 @@ text-align: center;
         }
         .hr{
             display: block;
-           background-color:orange;
+            border-color: orange;
         }
         .power{
             flex-direction: column-reverse;
