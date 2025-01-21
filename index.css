@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .nav{
-    height: 102px;
+    height: 80px;
     width:100%;
 }
 .nav-icon{
@@ -64,6 +64,45 @@ text-align: center;
 .hr{
     display: none;
 }
+
+/* main section (students) */
+.power{
+    border: none; 
+    height: 250px; 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 10px ;
+}
+.blue{
+    color: orange;
+}
+.orange{
+    color:blue
+}
+.power-head{
+    margin-top: 25px;
+}
+    .power-image{
+        height: 250px;
+        margin-right: 20px;
+    }
+    .power-h{
+        margin-bottom: 10px;
+    }
+    .power-p{
+        font-size: 12px;
+    }
+    .power-btn{
+        border: none;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 10px;
+        width: 80px;
+    }
 @media screen and (max-width: 576px) {
     .nav-head{
         display: none;
