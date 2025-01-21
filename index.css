@@ -69,7 +69,7 @@ text-align: center;
 .power{
     border: none; 
     height: 250px; 
-    justify-content: space-between;
+    justify-content: space-around;
     /* margin-left: 10px ; */
     display: flex;
 }
