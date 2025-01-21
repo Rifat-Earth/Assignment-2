@@ -70,7 +70,7 @@ text-align: center;
     border: none; 
     height: 250px; 
     justify-content: space-around;
-    margin-left: 10px ;
+    /* margin-left: 10px ; */
     display: flex;
 }
 .blue{
@@ -84,7 +84,7 @@ text-align: center;
 }
     .power-image{
         height: 250px;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
     .power-h{
         margin-bottom: 10px;
