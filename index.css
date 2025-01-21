@@ -12,7 +12,7 @@
 .nav-icon{
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0px;
     padding: 0px;
     border:none;
@@ -73,7 +73,7 @@ text-align: center;
 .power{
     border: none; 
     height: 250px; 
-    justify-content: space-between;
+    justify-content: space-around;
     /* margin-left: 10px ; */
     display: flex;
 }
@@ -109,7 +109,6 @@ text-align: center;
 
     /* standard option */
     .standard{
-        justify-content: space-between;
         align-items: center; 
         background-image: url(images/bg.png);
         text-align: center;
@@ -129,22 +128,36 @@ text-align: center;
     }
     .standard-card{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+
     }
     .standard-card-1{
      /* align-items: center;*/
-     justify-content: space-around; 
-     padding: 10px;
-     margin-right: 30px;
-     display: flexbox;
+     border: 2px solid whitesmoke;
+     border-radius: 8px;
+     background-color: whitesmoke;
+     background-image: linear-gradient(blue white);
     }
     .standard-card-2{
         padding: 10px;
-        /* margin-left: 20px; */
+        border: 2px solid whitesmoke;
+        border-radius: 8px;
+        background-color: whitesmoke;
     }
     .standard-card-3{
         padding: 10px;
         margin-left: 30px;
+        border: 2px solid whitesmoke;
+        border-radius: 8px;
+        background-color: whitesmoke;
+    }
+    .standard-arrow{
+        margin-top: 30px;
+        background-color: orange;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 8px;
     }
     .standard-image{
         width: 60px;
@@ -160,6 +173,8 @@ text-align: center;
     .card-3{
         color: blueviolet;
     }
+    /* our stories */
+
 @media screen and (max-width: 576px) {
     .nav-head{
         display: none;
@@ -187,6 +202,7 @@ text-align: center;
             display: block;
             border-color: orange;
         }
+        /* power */
         .power{
             flex-direction: column-reverse;
             align-items: center;
@@ -198,5 +214,16 @@ text-align: center;
         }
         .power-head{
             text-align: center;
+        }
+        /* standard */
+        .standard{
+            margin-top: 500px;
+        }
+        .standard-card{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .standard-arrow{
+            display: none;
         }
 }
