@@ -129,4 +129,16 @@ text-align: center;
             display: block;
            background-color:orange;
         }
+        .power{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .power-image{
+            width: 400px;
+            height: 500px;
+            margin-left: 25px;
+        }
+        .power-head{
+            text-align: center;
+        }
 }
