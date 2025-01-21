@@ -176,6 +176,7 @@ text-align: center;
     .stories{
         display: flex;
         margin-top: 40px;
+        justify-content: space-around;
     }
     .st-grid{
         display: grid;
