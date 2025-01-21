@@ -202,7 +202,7 @@ text-align: center;
         padding: 6px;
         border: none;
         border-radius: 10px;
-        font-size: 10px;
+        font-size: 7px;
         background-color: skyblue;
         color: white;
         margin-bottom: 10px;
@@ -211,7 +211,7 @@ text-align: center;
         padding: 6px;
         border: none;
         border-radius: 10px;
-        font-size: 10px;
+        font-size: 7px;
         background-color: green;
         color: white; 
     }
@@ -219,7 +219,7 @@ text-align: center;
         padding: 6px;
         border: none;
         border-radius: 10px;
-        font-size: 10px;
+        font-size: 7px;
         background-color: blue;
         color: white;
     }
@@ -267,7 +267,7 @@ text-align: center;
         margin-bottom: 5px;
     }
     .st-size{
-        width: 100px;
+        width: 120px;
         height: 100px;
     }
     .st-btn-end{
@@ -328,6 +328,10 @@ text-align: center;
             gap: 20px;
         }
         .standard-arrow{
+            display: none;
+        }
+        /* stories */
+        .stories-1{
             display: none;
         }
 }
