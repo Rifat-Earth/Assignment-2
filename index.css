@@ -3,16 +3,16 @@
     padding: 0px;
 }
 .body{
-    margin: 20px;
+    margin: 30px;
 }
 .nav{
     height: 80px;
-    width:100%;
+    /* max-width:100%; */
 }
 .nav-icon{
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
     border:none;
@@ -73,7 +73,7 @@ text-align: center;
 .power{
     border: none; 
     height: 250px; 
-    justify-content: space-around;
+    justify-content: space-between;
     /* margin-left: 10px ; */
     display: flex;
 }
