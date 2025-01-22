@@ -280,6 +280,86 @@ text-align: center;
         margin-top: 20px;
         width: 100px;
     }
+    /* footer */
+    .footer{
+        display: flex;
+        background-color:skyblue;
+        justify-content: space-around;
+        margin-top: 25px;
+        height: 150px;
+        max-width: 100%;
+        border: none;
+        border-radius: 10px;
+    }
+    .footer-image{
+        display: flex;
+        margin-top: 30px;
+    }
+    .ft-image{
+        width: 40px;
+        height: 40px;
+    }
+    .ft-h{
+        margin-top: 6px;
+        color: white;
+    }
+    .ft-p{
+        margin-top: 10px;
+        font-size: 8px;
+    }
+    .footer-2{
+        margin-top: 30px;
+    }
+    .footer-h-2{
+        color: white;
+        padding: 5px;
+    }
+    .footer-a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-left: 8px;
+    }
+    .footer-a-1{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .footer-a-2{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .footer-a-3{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .footer-a-4{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .ft-h3{
+       margin-top: 30px;
+       margin-bottom: 10px;
+       color: white;
+    }
+    .footer-end{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-around;
+    }
+    .ses{
+        padding: 2px;
+        width: 20px;
+        height: 20px;
+    }
 @media screen and (max-width: 576px) {
     .nav-head{
         display: none;
@@ -334,5 +414,19 @@ text-align: center;
         /* stories */
         .stories-1{
             display: none;
+        }
+        /* footer */
+        .footer{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            margin-left: 10px;
+        }
+        .footer-1, .footer-2, .footer-3{
+            padding-left: 30px;
+        }
+        .footer-end{
+            display: flex;
+            justify-content: start;
         }
 }
