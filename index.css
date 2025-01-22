@@ -177,6 +177,7 @@ text-align: center;
     .stories{
         display: flex;
         margin-top: 40px;
+        align-items: center;
     }
     .st-grid{
         display: grid;
