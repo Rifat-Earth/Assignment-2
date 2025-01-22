@@ -276,6 +276,7 @@ text-align: center;
         background-image: url(images/bg.png);
         text-align: center;
         margin-top: 40px;
+        align-items: center;
         background-image: linear-gradient(to bottom pink);
     }
     .st-p{
