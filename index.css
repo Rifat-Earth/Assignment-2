@@ -178,6 +178,7 @@ text-align: center;
         display: flex;
         margin-top: 40px;
         align-items: center;
+        justify-content: center;
     }
     .st-grid{
         display: grid;
@@ -275,6 +276,7 @@ text-align: center;
     .our{
         background-image: url(images/bg.png);
         text-align: center;
+        justify-content: center;
         margin-top: 40px;
         align-items: center;
         background-image: linear-gradient(to bottom pink);
