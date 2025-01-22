@@ -130,17 +130,19 @@ text-align: center;
         justify-content: space-around;
     }
     .standard-card-1{
-     /* align-items: center;*/
+     align-items: center;
      border: 2px solid whitesmoke;
      border-radius: 8px;
      background-color: whitesmoke;
-     background-image: linear-gradient(blue white);
+     padding: 7px;
+     background: linear-gradient(to top rgb(89, 89, 226) rgb(105, 39, 39));
     }
     .standard-card-2{
         padding: 10px;
         border: 2px solid whitesmoke;
         border-radius: 8px;
         background-color: whitesmoke;
+        background: linear-gradient(to top pink white);
     }
     .standard-card-3{
         padding: 10px;
@@ -148,6 +150,7 @@ text-align: center;
         border: 2px solid whitesmoke;
         border-radius: 8px;
         background-color: whitesmoke;
+        background: linear-gradient(to top red white);
     }
     .standard-arrow{
         margin-top: 30px;
