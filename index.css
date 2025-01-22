@@ -178,7 +178,7 @@ text-align: center;
         display: flex;
         margin-top: 40px;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     }
     .st-grid{
         display: grid;
@@ -274,12 +274,13 @@ text-align: center;
         margin: 8px;
     }
     .our{
+        
         background-image: url(images/bg.png);
+        background-image: linear-gradient(to bottom pink);
         text-align: center;
         justify-content: center;
         margin-top: 40px;
         align-items: center;
-        background-image: linear-gradient(to bottom pink);
     }
     .st-p{
         font-size: 10px;
